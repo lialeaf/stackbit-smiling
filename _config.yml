@@ -1,24 +1,31 @@
-title: Stackbit Exto Theme
+title: stackbit-smiling-609a8.netlify
 baseurl: /
-permalink: '/:title/'
+permalink: /:title/
 color_scheme: light
 accent_color: pink
 header:
-  title: Exto
+  title: 梅园科技
   has_nav: true
-footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
-  has_social: true
+  logo_img: /images/4-32.jpg
 sass:
   indentWidth: 4
   style: nested
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: /posts/:title/
+footer:
+  content: "&copy; 梅园科技. All rights reserved."
+  links:
+    - new_window: true
+      text: 奥蓝健康生活馆
+      url: https://www.haolife.top
+    - new_window: true
+      text: 奥蓝主题生活馆
+      url: https://www.topicbar.cn
+  has_social: false
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -33,6 +40,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
